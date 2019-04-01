@@ -2,6 +2,8 @@ package [ 'tree', 'ntp' ] do
   action :remove
 end
 
+package 'nano'
+
 file '/tmp/hello.txt' do
   content 'This is Chef First line
 This is the second line in file'
